@@ -83,4 +83,152 @@ nav{
     margin-bottom: 20px;
 }
 
+/* card section */
 
+.card-section-text{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.card-section-text h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: rgba(27, 27, 102, 0.918);
+}
+
+.card-section-text p{
+    font-size: 1rem;
+    font-weight: 300;
+    text-wrap: balance;
+    margin-bottom: 40px;
+}
+
+.card-section-card{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.card-section-card img{
+    width: 500px;
+    height: 300px;
+}
+
+.card-section-card article{
+    background-color: rgba(212, 211, 214, 0.349);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-section-card article:hover {
+    transform: translateY(-10px);
+}
+
+.card-section-card h2{
+    color: rgba(27, 27, 102, 0.918);
+    font-size: 1.5rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-section-card p{
+    color: black;
+    font-size: 1rem;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* faq section */
+
+.faq-parent{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.faq-title h2{
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: rgba(27, 27, 102, 0.918);
+}
+
+.faq-title p{
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.faq-qus-ans article{
+    background-color: rgba(178, 178, 236, 0.24);
+    border: 1px rgba(0, 0, 0, 0.267) solid;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.faq-qus-ans article:hover {
+    transform: translateY(-10px);
+}
+
+.q-one{
+    margin-bottom: 40px;
+}
+.q-two{
+    margin-bottom: 40px;
+}
+.q-three{
+    margin-bottom: 40px;
+}
+.q-four{
+    margin-bottom: 40px;
+
+}
+
+.q-one h3{
+    color: rgba(27, 27, 102, 0.918);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.q-two h3{
+    color: rgba(27, 27, 102, 0.918);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.q-three h3{
+    color: rgba(27, 27, 102, 0.918);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+.q-four h3{
+    color: rgba(27, 27, 102, 0.918);
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+/* footer section */
+
+footer{
+    background-color: rgba(155, 155, 223, 0.719);
+    display: flex;
+    justify-content:space-between;
+    padding: 60px;
+    
+}
+
+.footer-left h3{
+    margin-bottom: 10px;
+}
+
+.footer-right{
+    margin-top: 50px;
+}
